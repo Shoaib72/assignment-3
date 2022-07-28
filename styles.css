@@ -1,0 +1,33 @@
+/* carousel responsiveness only */
+/* for small devices */
+@media only screen and (max-width: 575.98px) {
+    .carousel-caption strong {
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        font-size: 7px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-caption strong {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-caption strong {
+        font-size: 35px;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+    }
+}
