@@ -8,6 +8,11 @@
     .carousel-caption p {
         font-size: 7px;
     }
+
+    .custom-class {
+        flex-direction: column;
+    }
+
 }
 
 /*Small devices (landscape phones, 576px and up) */
@@ -19,6 +24,10 @@
     .carousel-caption p {
         font-size: 10px;
     }
+
+    .custom-class {
+        flex-direction: column;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -29,6 +38,10 @@
 
     .carousel-caption p {
         font-size: 15px;
+    }
+
+    .custom-class {
+        flex-direction: column;
     }
 }
 

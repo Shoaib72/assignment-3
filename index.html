@@ -40,7 +40,7 @@
                             </li>
 
                             <li class="nav-item p-1">
-                                <a class="nav-link">About</a>
+                                <a class="nav-link" href="#">About</a>
                             </li>
                         </ul>
                         <form class="d-flex p-1" role="search">
@@ -234,19 +234,35 @@
         <!-- courses section ends -->
         <!-- view all button for courses -->
         <p class="text-center mt-3"><button type="button" class="btn btn-primary">View All</button></p>
-        <!-- modal trigger -->
-        <section class="bg-rimary">
-            <div class="container">
-                <div class="text-center">
-                    <h2>Willing To Join?</h2>
-                    <p class="lead">Stay Connected With Us</p>
+        <!-- modal section -->
+        <section class="container bg-primary mx-auto p-5 my-5 rounded custom-class">
+            <!-- modal trigger -->
+            <div class="row align-items-center justify-content-around">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h1 class="text-center text-white">Willing To Join?</h1>
+                    <p class="my-4 text-center text-white">
+                        If you are willing to join with us,<br>you can register for our different courses.<br>Get
+                        skilled & be employed!
+                    </p>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                        <p class="my-4">
-                            If you are willing to join with us,<br>you can register for our different courses.<br>Get
-                            skilled & be employed!
-                        </p>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <p class="text-center"><button class="btn btn-light px-5  text-primary" data-bs-toggle="modal"
+                            data-bs-target="#reg-modal"><strong>Register</strong></button></p>
+                </div>
+            </div>
+            <!-- modal itself -->
+            <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal-title">Get The Latest Updates</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>If you like our courses, you can contact us via
+                                e-mail. We will contact you via e-mail.</p>
+
+                        </div>
                     </div>
                 </div>
             </div>
